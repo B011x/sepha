@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #064e3b, #10b981);
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    padding: 30px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.dhikr {
+    font-size: 24px;
+    color: #d1fae5;
+    margin-bottom: 20px;
+}
+
+.counter {
+    width: 180px;
+    height: 180px;
+    margin: 20px auto 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    color: #065f46;
+
+    border-radius: 50%;
+    font-size: 55px;
+    font-weight: bold;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.tasbeeh-btn {
+    width: 170px;
+    height: 170px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #f59e0b;
+    color: white;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 8px 0 #b45309;
+
+    transition: 0.15s;
+}
+
+.tasbeeh-btn:active {
+    transform: translateY(8px);
+    box-shadow: 0 0 0 #b45309;
+}
+
+.reset {
+    display: block;
+
+    margin: 30px auto 0;
+
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #dc2626;
+    color: rgb(33, 68, 45);
+
+    font-size: 17px;
+
+    cursor: pointer;
+}
+
+.reset:hover {
+    background: #b91c1c;
+}
+img {
+    width: 300px;
+    border-radius: 15px;
+}
+img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(131, 28, 28);
+}
+body {
+    background-color: lightgray;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: darkslateblue;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin: 15px;
+}
+h2 {
+    color: #080a0a;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #19aab4;
+}
